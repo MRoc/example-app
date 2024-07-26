@@ -1,0 +1,15 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "description": "Simple example app that can be used for kubernetes tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "swagger-stats": "^0.99.7"
+  }
+}
