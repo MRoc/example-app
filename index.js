@@ -5,7 +5,7 @@ const app = express();
 app.use(swStats.getMiddleware());
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send(`Hello World from ${process.env.MESSAGE ?? "Matthias"}`);
 });
 
 app.get("/comments", (req, res) => {
