@@ -1,6 +1,6 @@
 # example-app
 
-Simple example app that can be used for kubernetes tests including metrics. To start follow:
+Simple example app that can be used for kubernetes tests including metrics.
 
 ## Local
 
@@ -27,3 +27,6 @@ Then visit the following endpoints:
 * http://localhost:3000/replies
 * http://localhost:3000/swagger-stats/metrics
 
+## Env variable
+
+The example app supports a env variable of name `MESSAGE` that is shown in the base route.
